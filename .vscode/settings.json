@@ -1,3 +1,9 @@
 {
     "cSpell.language": "en,es",
+    "cSpell.words": [
+        "linspace",
+        "matplotlib",
+        "pyplot",
+        "scipy"
+    ],
 }
