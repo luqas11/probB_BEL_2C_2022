@@ -8,6 +8,7 @@ import numpy as np
 # =============================================
 #             PARÁMETROS INICIALES            
 # =============================================
+
 n = 4000000
 resultA3andA2andA1 = 0
 resultNotCandA3andA2andA1 = 0
@@ -48,6 +49,7 @@ endTime = time.perf_counter_ns()
 # =============================================
 #                 RESULTADOS           
 # =============================================
+
 # Prints
 print("Tiempo de ejecución:", (endTime - startTime) / 1000000, "ms")
 print("Probabilidad de A1, A2 y A3: %.3f" % (resultA3andA2andA1 / n))

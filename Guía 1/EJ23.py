@@ -13,6 +13,7 @@ import numpy as np
 # =============================================
 #             PARÁMETROS INICIALES            
 # =============================================
+
 n = 3000000
 blockedAC = 0
 openBC = 0
@@ -42,6 +43,7 @@ endTime = time.perf_counter_ns()
 # =============================================
 #                 RESULTADOS           
 # =============================================
+
 # Prints
 print("Tiempo de ejecución:", (endTime - startTime) / 1000000, "ms")
 print("Probabilidad de AC bloqueado: %.3f" % (blockedAC / n))

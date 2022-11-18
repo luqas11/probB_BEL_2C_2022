@@ -6,6 +6,7 @@ import numpy as np
 # =============================================
 #             PARÁMETROS INICIALES            
 # =============================================
+
 n = 500000
 total = 0
 
@@ -30,6 +31,7 @@ endTime = time.perf_counter_ns()
 # =============================================
 #                 RESULTADOS           
 # =============================================
+
 # Prints
 print("Tiempo de ejecución:", (endTime - startTime) / 1000000, "ms")
 print("Probabilidad: %.3f" % (total / n))
