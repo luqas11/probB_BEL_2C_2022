@@ -14,6 +14,7 @@ endTime = time.perf_counter_ns()
 # =============================================
 #                 RESULTADOS           
 # =============================================
+
 # Prints
 print("Tiempo de ejecución:", (endTime - startTime) / 1000000, "ms")
 print("Esperanza de g(X)=%.3f" % result)
