@@ -1,4 +1,4 @@
-# Calcular la media del perímetro de un círculo cuyo área es una variable aleatoria con distribución exponencial de media 15.
+# Media del perímetro de un círculo cuyo área es una variable aleatoria con distribución exponencial de media 15.
 
 import time
 import numpy as np
