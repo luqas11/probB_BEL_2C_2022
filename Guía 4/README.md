@@ -1,3 +1,3 @@
 # Descripción
 
-Ejercicios de transformaciones de variables aleatorias.
+Ejercicios de transformación de variables aleatorias.
